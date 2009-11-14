@@ -1,0 +1,9 @@
+= Redmine Security #4216
+
+This plugin can be used to protect Redmine from Defect #4216 involving a CSRF bug.
+
+== Installation steps
+
+1. Download this plugin and place it in your REDMINE_DIRECTORY/vendor/plugins
+2. If you are Running any version of Redmine 0.8, edit the value of :secret
+3. Restart your Redmine
